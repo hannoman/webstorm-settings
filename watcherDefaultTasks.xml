@@ -1,0 +1,204 @@
+<application>
+  <component name="ApplicationTasksOptions">
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="$FilePathRelativeToProjectRoot$ -o $FileName$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="UglifyJS" />
+      <option name="output" value="$FileName$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/hackmud/damian11/scripts/node_modules/.bin/uglifyjs.cmd" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="largesrcs" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$ContentRoot$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="$FileName$ -o $FileNameWithoutExtension$.min.js" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="UglifyES (for const)" />
+      <option name="output" value="$FileNameWithoutExtension$.min.js" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/hackmud/damian11/scripts/node_modules/uglify-es/bin/uglifyjs" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="Project Files" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$FileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--parse &quot;bare_returns&quot; --comments &quot;all&quot; -o $FileName$ -- $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="UglifyJS Copy" />
+      <option name="output" value="$FileName$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/hackmud/damian11/scripts/node_modules/.bin/uglifyjs.cmd" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="largesrcs" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$ContentRoot$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--parse &quot;bare_returns&quot; --comments &quot;all&quot; -o $FileName$ -- $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="UglifyES bare_returns comments" />
+      <option name="output" value="$FileName$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/hackmud/damian11/scripts/node_modules/.bin/uglifyjs.cmd" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="largesrcs" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$ContentRoot$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--parse &quot;bare_returns&quot; --comments &quot;all&quot; --compress -o $FileName$ -- $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="UglifyES bare_returns comments compress" />
+      <option name="output" value="$FileName$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/hackmud/damian11/scripts/node_modules/.bin/uglifyjs.cmd" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="largesrcs" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$ContentRoot$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--parse &quot;bare_returns&quot; -o min_src\$FileName$ -- $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="UglifyES bare_returns" />
+      <option name="output" value="min_src" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/hackmud/damian11/scripts/node_modules/.bin/uglifyjs.cmd" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="largesrcs" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$ContentRoot$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--parse &quot;bare_returns&quot; --mangle -o $FileName$ -- $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="NEVER" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="UglifyES bare_returns mangle" />
+      <option name="output" value="$FileName$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/hackmud/damian11/scripts/node_modules/.bin/uglifyjs.cmd" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="largesrcs" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$ContentRoot$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--parse &quot;bare_returns&quot; --mangle --compress -o min_src\$FileName$ -- $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="NEVER" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="UglifyES bare_returns mangle compress" />
+      <option name="output" value="min_src" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/hackmud/damian11/scripts/node_modules/.bin/uglifyjs.cmd" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="largesrcs" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$ContentRoot$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="div/postproc.py largesrc\$FileName$ $FilePathRelativeToProjectRoot$ $FileName$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="gluer" />
+      <option name="output" value="$ProjectFileDir$" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="C:/Programs/Python/Python36-32/python.exe" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="min_srcs" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$" />
+      <envs />
+    </TaskOptions>
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="--parse &quot;bare_returns&quot; --compress -o min_src\$FileName$ -- $FilePathRelativeToProjectRoot$" />
+      <option name="checkSyntaxErrors" value="false" />
+      <option name="description" />
+      <option name="exitCodeBehavior" value="NEVER" />
+      <option name="fileExtension" value="js" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="UglifyES bare_returns compress" />
+      <option name="output" value="min_src" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/hackmud/damian11/scripts/node_modules/.bin/uglifyjs.cmd" />
+      <option name="runOnExternalChanges" value="true" />
+      <option name="scopeName" value="largesrcs" />
+      <option name="trackOnlyRoot" value="true" />
+      <option name="workingDir" value="$ContentRoot$" />
+      <envs />
+    </TaskOptions>
+  </component>
+</application>
