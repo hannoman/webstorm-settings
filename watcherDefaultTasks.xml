@@ -144,7 +144,7 @@
       <option name="arguments" value="--parse &quot;bare_returns&quot; --mangle --compress -o min_src\$FileName$ -- $FilePathRelativeToProjectRoot$" />
       <option name="checkSyntaxErrors" value="false" />
       <option name="description" />
-      <option name="exitCodeBehavior" value="NEVER" />
+      <option name="exitCodeBehavior" value="ERROR" />
       <option name="fileExtension" value="js" />
       <option name="immediateSync" value="true" />
       <option name="name" value="UglifyES bare_returns mangle compress" />
